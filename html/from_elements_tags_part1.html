@@ -1,0 +1,43 @@
+<!-- From and its elements -->
+<!-- <form>...</form> -->
+<!-- 
+Textbox  | it is used to take small text as input
+Textarea | it is used to take large text as input
+Radio Button | it is used to select only one time among 2-3 
+Submit Button | used to sub thefrom
+Reset Button -->
+
+<!-- <input/> -->
+<!-- 
+type 
+value
+placeholder -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+</head>
+<body>
+    <h2>Enquiry</h2>
+    <form>
+        Name: <input type="text" name="name" value="" placeholder="Enter name">    <!--name="..." is a attribute-->
+        <br>
+        <br>
+        Address: <textarea name="address" id="" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        Gender:
+        <input type="radio" value="m" name="Gender">Male
+        <input type="radio" value="f" name="Gender">Female
+        <input type="radio" value="o" name="Gender">Others
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

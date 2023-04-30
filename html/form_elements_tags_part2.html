@@ -1,0 +1,69 @@
+<!-- Form elements part-2-->
+<!-- Select box -->
+<!-- <select >...</select> -->
+<!-- 
+<optgroup label="">...</optgroup>
+<option value="">...</option> -->
+<!-- Check box -->
+<!-- File Input -->
+<!-- <fieldset>...</fieldset> -->
+<!-- <legend>...</legend> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From2</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Enquiry</legend>
+      <form>
+        Name:
+        <input type="text" name="name" value="" placeholder="Enter name" />
+        <!--name="..." is a attribute-->
+        <br />
+        <br />
+        Address: <textarea name="address" id="" cols="30" rows="10"></textarea>
+        <br />
+        <br />
+        Gender:
+        <input type="radio" value="m" name="Gender" />Male
+        <input type="radio" value="f" name="Gender" />Female
+        <input type="radio" value="o" name="Gender" />Others
+        <br />
+        <br />
+        State:
+        <select name="" id="">
+          <option value="">Please select your state</option>
+          <optgroup label="India">
+            <option value="West Bengal">West Bengal</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="Tamilnadiu">Tamilnadiu</option>
+          </optgroup>
+          <optgroup label="USA">
+            <option value="London">London</option>
+            <option value="Scotland">Scotland</option>
+          </optgroup>
+        </select>
+        <br />
+        <br />
+        Hhobbies:
+        <input type="checkbox" name="hobbies[]" />Singing
+        <input type="checkbox" name="hobbies[]" />Dancing
+        <input type="checkbox" name="hobbies[]" />Painting
+        <br />
+        <br />
+        Image:
+        <input type="file" name="image" />
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </form>
+    </fieldset>
+  </body>
+</html>
