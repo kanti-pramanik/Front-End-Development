@@ -1,0 +1,27 @@
+/* External css */
+/* It is a file of css that carries classes, ids and css properties */
+/* It is define by .css extention */
+/* It can be linked to more than one html files(<link rel="stylesheet" type="text/css" href="" />) */
+
+
+/* Internal CSS */
+/* Amra jani je inter mane ekta HTML file create korbo oor modhey CSS likhbo | ata hoyegelo amr internal css ar example */
+
+/* External CSS */
+/* External CSS ar mane holo amra alada alada vabe HTML and CSS ar file create korbo | and setake link kore add korbo */
+
+
+/* Example ami duto HTML file create korchi
+1. index.html
+2. about.html
+and design korbo ekta css file diye */
+
+.main{
+    width: 500px;
+    height: 150px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.main:hover{
+    background-color: green;
+}

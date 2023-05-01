@@ -1,0 +1,60 @@
+/* Internal CSS properties */
+/* 
+width 
+height
+background-color 
+floar  
+*/
+
+/* Two main Selectors */
+/* 
+1. .class -> Class can be calls multiple times
+.className{
+    //defination
+}
+
+2. #id -> Id is calles only once, as it is qnique
+#idName{
+    //defination
+}  
+*/
+
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+#parent-row-1{
+    width: 500px;
+    height: 250px;
+    background-color: yellow;
+}
+#parent-row-2{
+    width: 500px;
+    height: 250px;
+    background-color: blue;
+}
+.col1{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    float: left;
+}
+.col2{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    float: left;
+}
+.col3{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    float: left;
+}
+.col4{
+    width: 250px;
+    height: 250px;
+    background-color: burlywood;
+    float: left;
+}

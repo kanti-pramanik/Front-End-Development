@@ -1,0 +1,17 @@
+/* List of css Properties */
+/* 
+font-size:    It is used to define the size of text(px, or % are used)
+color          It is used to define the color of text(color name or color code are used)
+font-weight:     It is used to define the boldness of text(bold or bolder are used)
+font-style:         It is used to change the style of text(normal, italic or oblique are used)
+*/
+
+.text{
+    width: 150px;
+    height: 100px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    color: rgb(225, 28, 156);
+    font-weight: bold;
+    font-style: oblique;
+}

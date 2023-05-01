@@ -1,0 +1,56 @@
+.main{
+    width: 900px;
+    height: 900px;
+    background-color: aqua;
+}
+#parent-row-1{
+    width: 900px;
+    height: 300px;
+    background-color: bisque;
+}
+#parent-row-2{
+    width: 900px;
+    height: 300px;
+    background-color: green;
+    text-align: center;
+}
+#parent-row-3{
+    width: 900px;
+    height: 300px;
+    background-color: gray;
+}
+.col1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(199, 219, 199);
+    float: left;
+    text-align: center;
+}
+.col2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(214, 144, 144);
+    float: left;
+    text-align: center;
+}
+.col3{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(150, 57, 237);
+    float: left;
+    text-align: center;
+}
+.col4{
+    width: 450px;
+    height: 300px;
+    background-color: rgb(24, 141, 98);
+    float: left;
+    text-align: center;
+}
+.col5{
+    width: 450px;
+    height: 300px;
+    background-color: rgb(43, 119, 226);
+    float: left;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+/* CSS covers multiple layout at once  */
+/* Types of CSS */
+/* 1. Internal CSS
+--> An internal stylesheet holds CSS rulse for the page in the head section of the HTML file.
+2. External CSS
+--> An external style sheet is a file containing only CSS syntax.
+3. Inline CSS
+--> Inline CSS allows you to apply a unique style to one HTML element at a time.
+*/
+
+/* How to works CSS */
+/* Selector
+--> In Selector are patterns used to select the element(s) you want to style. 
+*/
+/* Two main Selectors */
+/* 
+1. .class -> Class can be calls multiple times
+.className{
+    //defination
+}
+
+2. #id -> Id is calles only once, as it is qnique
+#idName{
+    //defination
+}  
+*/

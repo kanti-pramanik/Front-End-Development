@@ -1,0 +1,31 @@
+/* List of more css properties */
+/* 
+text-align:           It is used to align the text(left, right, center, justify are used)
+text-decoration:       It is used to decorate the text(underline/none are used)
+text-transform:         It is used to define the case of the text(uppercase/lowercase/capitalize are used)
+word-spacing:            It is used to define the space between two words(px or % are used)
+*/
+
+.text{
+    width: 400px;
+    height: 100px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    color: rgb(225, 28, 156);
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: uppercase;
+    word-spacing: 30px;
+    letter-spacing: 20px;
+}
+.anchor{
+    text-decoration: none;
+}
+.para{
+    width: 1500px;
+    height: 250px;
+    background-color: brown;
+    color: cadetblue;
+    font-size: 20px;
+    text-align: justify;
+}
