@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script type="text/javascript">
+    // cars = ["car1", "car2", "car3", "car4", "car5", "car6"];
+    // cars.forEach(car); // own function decleare must(mandatory)
+    // function car(item){
+    //     document.write(item+"<br/>");
+    // }
+
+
+    // cars = ["car1", "car2", "car3", "car4", "car5", "car6"];
+    // cars.forEach(car); // own function decleare must(mandatory)
+    // function car(item,index){
+    //     document.write(index+"="+item+"<br/>");  // index function throw chacked which (index no and item)
+
+
+    cars = ["car1", "car2", "car3", "car4", "car5", "car6"];
+    cars.forEach(car); // own function decleare must(mandatory)
+    function car(item,index,array){
+        array[index] = item+"0";  // 0 concatnate thats thy attach 0 like 10, 20, 30 ....etc
+    }
+    cars.forEach(after); // another function
+    function after(item,index){
+        document.write(index+"="+item+"<br/>");
+    }
+
+
+
+</script>
+</html>

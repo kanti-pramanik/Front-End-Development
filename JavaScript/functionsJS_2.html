@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="name" id="name"/>
+    <button onclick="greet()">  <!--onclick attribute nilam(but onclik is an event) and greet function ke call korlam-->
+        Greet
+    </button>
+    <div class="greet">
+
+    </div>
+</body>
+<script type="text/javascript">
+/* Calling user define function on Click event */   // <!--amra skhlam user define function and onclick event--> //
+    function greet(){
+        // alert("yes");
+        var name = document.getElementById("name").value;
+        var string = "Hello! "+name;
+        // alert(name);
+        // document.write(name);
+        document.getElementsByClassName("greet")[0].innerHTML = string;    // above the mention <div class="greet"> amra ekbar niyeci tai [0] mention korechi || a khane eki namer aro function nite pari se khetre [1],[2],[3]..etc
+
+
+    }
+</script>
+</html>
